@@ -22,14 +22,13 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-.dark-theme-variables{
-    --color-background:#181a1e;
-    --color-white:#202528;
-    --color-dark:#edeffd;
-    --color-dark-variant:#a3bdcc;
-    --color-light:rgba(0,0,0,0.4);
-    --box-shadow:0 2rem 3rem var(--color-light);
-
+.dark-theme-variables {
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
 *{
@@ -431,8 +430,8 @@ main .recent-orders a {
 
 }
 
-.right .recent-updates h3{
-    margin-bottom: 0.5rem;
+.right .recent-updates h2{
+    margin-bottom: 0.8rem;
 
 }
 
@@ -444,6 +443,10 @@ main .recent-orders a {
     transition: all 300ms ease;
 }
 .right .recent-updates .updates:hover{
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .update{
     display: grid;
     grid-template-columns: 2.6rem auto;
     gap: 1rem;
